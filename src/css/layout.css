@@ -15,7 +15,7 @@ body {
 }
 
 .header {
-    background-color: rgb(208, 210, 211);
+    background-color: rgb(171, 207, 224);
     height: 217px;
 }
 
@@ -60,7 +60,7 @@ body {
     width: 630px;
 }
 
-.content .mainbar .article_vert {
+.content .mainbar .h2_vert {
     margin: 0;
     padding: 0 16px 0 0;
     float: left;
@@ -69,7 +69,6 @@ body {
 
 .content .sidebar {
     float: right;
-    width: 236px;
 }
 
 .fbg_resize .col {
@@ -123,4 +122,24 @@ ul.fmenu li {
     margin: 0;
     padding: 0 12px;
     float: left;
+}
+
+.article_vert {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.article_vert:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.ar_1, .ar_2 {
+    display: flex;
+    gap: 25px;
+    margin: 40px 0;
+    justify-content: space-between;
 }

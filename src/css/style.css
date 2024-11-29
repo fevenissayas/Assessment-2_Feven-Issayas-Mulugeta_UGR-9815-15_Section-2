@@ -28,7 +28,7 @@ h2 {
     font: bold 24px Arial, Helvetica, sans-serif;
     color: #0e5cb4;
     padding: 8px 0;
-    margin: 8px 0;
+    margin: 20px 0 0;
 }
 
 p {
@@ -42,7 +42,7 @@ a {
 }
 
 a.red {
-    color: #d18411;
+    color: #225f06;
 }
 
 .menu_nav ul li a {
